@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>test-kml.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>test-kml</name>
+		<open>1</open>
+		<Placemark>
+			<name>Untitled Polygon</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-128.221224790177,52.9090635196468,0 -127.5551173411185,52.86619236835226,0 -127.5217390497782,52.87297329332563,0 -127.4827830555138,52.88644854433937,0 -127.4409948016833,52.91163293022654,0 -126.9454908376404,53.16035715333928,0 -126.9280939468891,53.19710207295357,0 -126.9220317921194,53.22050962376573,0 -126.9186791706917,53.24899167966949,0 -126.9099309258972,53.26738667805456,0 -127.1047050805323,53.70944811550985,0 -127.1269789752442,53.7497968548456,0 -127.1719644765159,53.79688491649459,0 -127.2056864922536,53.84062178264337,0 -127.231061528069,53.86921607802758,0 -127.9559102520157,54.09036128949857,0 -128.0533646310081,54.09350893466163,0 -128.125378589991,54.10192923745038,0 -128.1796712557203,54.09659160116507,0 -128.7355736576632,53.91730296136585,0 -128.78868794026,53.87805028850393,0 -128.8137507077327,53.85590815968938,0 -128.8217421898062,53.83730088714746,0 -128.7487705078607,53.33336740582297,0 -128.7393018528437,53.30153444848123,0 -128.7246567660666,53.27647077785462,0 -128.221224790177,52.9090635196468,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Untitled Polygon 2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-125.8111884208003,52.32818545384115,0 -124.4972909117933,52.44059779019457,0 -125.1375782672659,53.7106973694756,0 -126.478181103699,53.48915571752948,0 -125.8111884208003,52.32818545384115,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
